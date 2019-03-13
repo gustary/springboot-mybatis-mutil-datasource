@@ -30,7 +30,7 @@ public class TestUser {
 	@Test
 	public void queryMerConfigTest() {
 
-		User user = userDao.findByName("master_123");
+		User user = userDao.findByName("master_123223");
 
 		System.out.println(user.getDescription());
 
